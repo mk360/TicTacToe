@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe from a dummy</title>
+<style>
+.name {
+	width: 90px;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.box {
+	width: 75px;
+	height: 75px;
+	background: #f4dc42;
+	text-align: center;
+}
+.active {
+	background-color: #54c136;
+}
+#result {
+	color: #e8aa10;
+	size: 30px;
+	font-family: Segoe UI;
+}
+</style>
+<meta charset="UTF-8">
+</head>
+<body>
+<center><div id="grid"></div></center>
+<div style="padding-left:100px; padding-right:100px; padding-bottom:50px; background-color:#959595; text-align:center">
+	<input id="name1" class="left name" /> <button onclick="startGame()" id="start">Start</button> <input id="name2" class="right name" />
+</div>
+<span id="result"></span><br />
+<!-- Hi -->
+<script src="Script.js"></script>
+</body>
+</html>
